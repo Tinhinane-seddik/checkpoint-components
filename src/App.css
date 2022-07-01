@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.profil-img {
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  border-radius: 40%;
+  
+}
+
+.Name{
+  color: rgb(70, 17, 120);
+  font-size: large;
+ background-color: rgb(185, 147, 220);
+ margin-left: 400px;
+ margin-right: 400px;
+}
+
+.Address{
+  color: black;
+  background-color: rgb(185, 147, 220);
+  font-style: italic;
+  margin-left: 400px;
+ margin-right: 400px;
 }
